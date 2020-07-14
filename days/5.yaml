@@ -1,0 +1,130 @@
+---
+month: 5
+day: 1
+name: Fête du Muguet (Medicine)
+tags:
+ - name: コンパロ祭
+   platforms: [twitter, pixiv]
+characters: [Medicine]
+message: Konparo, Konparo, Doku yo atsumare~ Heureux **Fête du Muguet!** avec Medicine!
+explanation: >
+ In France, May/Labour Day is Fête du Muguet, as the lily of the valley (Muguet in French) symbolizes the return of happiness. Medicine is associated with the lily of the valley as well. The tag name, "Konparo Festival", references a line Medicine says in PoFV.
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/コンパロ祭
+---
+month: 5
+day: 5
+name: Mystic Square Day
+tags:
+ - name: 5月5日は怪綺談の日
+   platforms: [twitter, pixiv]
+characters: [MysticSquare]
+message: 5/5 is **Mystic Square Day**!
+explanation: >
+ Mystic Square was released at C55.
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/5月5日は怪綺談の日
+---
+month: 5
+day: 5
+name: Kokoro's Days
+tags:
+ - name: 5月5～6日はこころの日
+   platforms: [pixiv]
+ - name: 5月6日はこころの日
+   platforms: [twitter]
+characters: [Kokoro]
+message: 5/5~6 are **Kokoro's Days**!
+explanation: >
+ Goroawase: 5(Ko)5(ko)6(ro)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/5月5～6日はこころの日
+---
+month: 5
+day: 10
+name: Kotohime Day
+tags:
+ - name: 5月10日は小兎姫の日
+   platforms: [twitter, pixiv]
+characters: [Kotohime]
+message: 5/10 is **Kotohime Day**!
+explanation: >
+ Goroawase: 5(Ko)10(to)
+citations:
+---
+month: 5
+day: 14
+name: Koishi Day
+tags:
+ - name: 5月14日はこいしの日
+   platforms: [twitter, pixiv]
+ - name: こいしの日
+   platforms: [twitter, pixiv]
+characters: [Koishi]
+message: 5/14 is **Koishi Day**!
+explanation: >
+ Goroawase: 5(Ko)1(i)4(shi)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/5月14日はこいしの日
+---
+month: 5
+day: 15
+name: Meiling Day
+tags:
+ - name: 5月15日は美鈴の日
+   platforms: [twitter, pixiv]
+characters: [Meiling]
+message: 5/15 is **Meiling Day**!
+explanation: >
+ Odd pun: May + 15th periodic element is P (rin in JP, same as in Orin's name)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/5月15日は美鈴の日
+---
+month: 5
+day: 15
+name: KoiKoko Day
+tags:
+ - name: 5月15日はこいここの日
+   platforms: [twitter, pixiv]
+characters: [Koishi, Kokoro]
+message: 5/15 is **KoiKoko Day**!
+explanation: >
+ Goroawase: 5(Ko)1(i)5(ko)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/5月15日はこいここの日
+---
+month: 5
+day: 16
+name: Love-Colored Day
+tags:
+ - name: 5月16日は恋色の日
+   platforms: [twitter, pixiv]
+ - name: 恋色の日
+   platforms: [twitter, pixiv]
+characters: [Marisa]
+message: 5/16 is the **Love-Colored Day**!
+explanation: >
+ Goroawase: 5(Ko)1(i)6(ro)=Koiiro (Love-colored)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/恋色の日
+---
+month: 5
+day: 26
+name: Kokoro Day
+tags:
+ - name: 5月26日はこころの日
+   platforms: [twitter, pixiv]
+characters: [Kokoro]
+message: 5/26 is **Kokoro Day**!
+explanation: >
+ Goroawase: 5(ko)x2=koko 6(ro). Also, release date of HM
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/5月26日はこころの日

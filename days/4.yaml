@@ -1,0 +1,58 @@
+---
+month: 4
+day: 6
+name: Youmu Day
+tags:
+ - name: 4月6日は妖夢の日
+   platforms: [twitter, pixiv]
+characters: [Youmu]
+message: 4/6 is **Youmu Day**!
+explanation: >
+ Goroawase: 4(Yo)6(mu)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/4月6日は妖夢の日
+---
+month: 4
+day: 10
+name: Parsee Day
+tags:
+ - name: 4月10日はパルスィの日
+   platforms: [twitter, pixiv]
+ - name: 4月10日は嫉妬の日
+   platforms: [twitter, pixiv]
+characters: [Parsee]
+message: 4/10 is **Parsee Day**!
+explanation: >
+ Goroawase: 4(Shi)10(To)=しっと (jealousy)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/4月10日はパルスィの日
+---
+month: 4
+day: 28
+name: Shizuha Day
+tags:
+ - name: 4月28日は静葉の日
+   platforms: [twitter, pixiv]
+characters: [Shizuha]
+message: 4/28 is **Shizuha Day**!
+explanation: >
+ Goroawase: 4(Shi)2(tsu)8(ha)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/4月28日は静葉の日
+---
+month: 4
+day: 30
+name: Shirasawa Day
+tags:
+ - name: 4月30日は白沢の日
+   platforms: [twitter, pixiv]
+characters: [Keine]
+message: 4/30 is **Shirasawa Day**!
+explanation: >
+ Goroawase: 4(Shi)3(sa)0(wa)=Shi(ra)sawa
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/4月30日は白沢の日

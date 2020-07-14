@@ -1,0 +1,216 @@
+---
+month: 3
+day: 2
+name: Sunny Day
+tags:
+ - name: 3月2日はサニーミルクの日
+   platforms: [twitter, pixiv]
+ - name: 3月2日と21日はサニーミルクの日
+   platforms: [twitter, pixiv]
+characters: [Sunny]
+message: 3/2 (and 3/21) is **Sunny Day**!
+explanation: >
+ Goroawase: 3(Sa)2(ni)=Sunny
+citations:
+ - name: Pixiv Dictionary
+   url: https://dic.pixiv.net/a/3月2日と21日はサニーミルクの日
+---
+month: 3
+day: 3
+name: Hina-matsuri
+tags:
+ - name: 東方雛祭り
+   platforms: [twitter, pixiv]
+characters: [Hina]
+message: 3/3 is **Hina-matsuri**!
+explanation: >
+ Hinamatsuri, obviously.
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/東方雛祭り
+---
+month: 3
+day: 4
+name: Myon Day
+tags:
+ - name: 3月4日はみょんの日
+   platforms: [twitter, pixiv]
+characters: [Youmu]
+message: 3/4 is **Myon Day**!
+explanation: >
+ Goroawase: 3(Mi)4(yon)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/3月4日はみょんの日
+---
+month: 3
+day: 5
+name: Miko Day
+tags:
+ - name: 東方巫女の日
+   platforms: [twitter, pixiv]
+characters: [Reimu, Sanae]
+message: 3/5 is **Miko Day**!
+explanation: >
+ Goroawase: 3(Mi)5(ko)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/東方巫女の日
+---
+month: 3
+day: 5
+name: Toyosatomimi no Miko Day
+tags:
+ - name: 3月5日は豊聡耳神子の日
+   platforms: [twitter, pixiv]
+ - name: 3月5日は神子の日
+   platforms: [twitter, pixiv]
+characters: [Miko]
+message: 3/5 is **Toyosatomimi no Miko Day**!
+explanation: >
+ Goroawase: 3(Mi)5(ko)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/3月5日は豊聡耳神子の日
+---
+month: 3
+day: 7
+name: Sanae Day
+tags:
+ - name: 3月7日は早苗さんの日
+   platforms: [twitter, pixiv]
+ - name: 3月7日は早苗の日
+   platforms: [twitter, pixiv]
+ - name: 早苗さんの日
+   platforms: [twitter, pixiv]
+characters: [Sanae]
+message: 3/7 is **Sanae Day**!
+explanation: >
+ Goroawase: 3(Sa)7(Na)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/3月7日は早苗さんの日
+---
+month: 3
+day: 9
+name: Mishaguji Day
+tags:
+ - name: 3月9日はミシャグジさまの日
+   platforms: [twitter, pixiv]
+characters: [Mishaguji]
+message: 3/9 is **Mishaguji Day**!
+explanation: >
+ Goroawase: 3(Mi)9(Gu)=Mi(sha)Gu(ji)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/3月9日はミシャグジさまの日
+---
+month: 3
+day: 9
+name: Sakuya Day
+tags:
+ - name: 3月9日は咲夜の日
+   platforms: [twitter, pixiv]
+ - name: 咲夜さんの日
+   platforms: [twitter, pixiv]
+characters: [Sakuya]
+message: 3/9 is **Sakuya Day**!
+explanation: >
+ Goroawase: 3(Sa)9(ku)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/咲夜さんの日
+---
+month: 3
+day: 10
+name: Satori Day
+tags:
+ - name: 3月10日はさとりの日!
+   platforms: [pixiv]
+ - name: 3月10日はさとりの日
+   platforms: [twitter, pixiv]
+ - name: さとりの日
+   platforms: [twitter, pixiv]
+characters: [Satori]
+message: 3/10 is **Satori Day**!
+explanation: >
+ Goroawase: 3(Sa)10(Tori)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/3月10日はさとりの日!
+---
+month: 3
+day: 10
+name: Sariel Day
+tags:
+ - name: 3月10日はSariel様の日!
+   platforms: [pixiv]
+ - name: 3月10日はSariel様の日
+   platforms: [twitter, pixiv]
+characters: [Sariel]
+message: 3/10 is **Sariel Day**!
+explanation: >
+ Goroawase: 3(Sa)10(Ten->Tenshi (Angel)->Riel)?
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/3月10日はSariel様の日!
+---
+month: 3
+day: 12
+name: MikoToji Day
+tags:
+ - name: 3月12日はみことじの日
+   platforms: [twitter, pixiv]
+characters: [Miko, Tojiko]
+message: 3/12 is **MikoToji Day**!
+explanation: >
+ Goroawase: 3(Mi)10(to)2(ji)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/3月12日はみことじの日
+---
+month: 3
+day: 18
+name: Inaba Day
+tags:
+ - name: 3月18日は因幡の日!
+   platforms: [pixiv]
+ - name: 3月18日は因幡の日
+   platforms: [twitter, pixiv]
+characters: [Tewi, Reisen]
+message: 1/78 is **Inaba Day**!
+explanation: >
+ Goroawase: 1(I)7(na)8(ba)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/3月18日は因幡の日!
+---
+month: 3
+day: 20
+name: MikoFuto Day
+tags:
+ - name: 3月20日はみこふとの日
+   platforms: [twitter, pixiv]
+characters: [Miko, Futo]
+message: 3/20 is **MikoFuto Day**!
+explanation: >
+ Goroawase: 3(Mi)20(Futo)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/3月20日はみこふとの日
+---
+month: 3
+day: 21
+name: Sunny Day
+tags:
+ - name: 3月21日はサニーミルクの日
+   platforms: [twitter, pixiv]
+ - name: 3月2日と21日はサニーミルクの日
+   platforms: [twitter, pixiv]
+characters: [Sunny]
+message: 3/21 (and 3/2) is **Sunny Day**!
+explanation: >
+ Goroawase: 3(Sa)2(ni)1(i)=Sunny
+citations:
+ - name: Pixiv Dictionary
+   url: https://dic.pixiv.net/a/3月2日と21日はサニーミルクの日

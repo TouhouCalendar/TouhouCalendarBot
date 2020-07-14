@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-twitter = "~=3.5"
+requests = "*"
+PyYAML = "*"
+
+[dev-packages]
+twitter-text = "*"
+pyyaml = "*"
+
+[requires]
+python_version = "3"

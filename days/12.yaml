@@ -1,0 +1,44 @@
+---
+month: 12
+day: 9
+name: Hifuu Club Day
+tags:
+ - name: 12/9は秘封倶楽部の日
+   platforms: [pixiv]
+ - name: 12月9日は秘封倶楽部の日
+   platforms: [twitter, pixiv]
+characters: [Renko, Merry]
+message: 12/9 is **Secret Sealing Club Day**!
+explanation: >
+ Goroawase: 1(Hi)2(Fu) 9(Ku) = Hifuu Club.
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/12%2F9は秘封倶楽部の日
+---
+month: 12
+day: 10
+name: IchiFuto Day
+tags:
+ - name: 12月10日はいちふとの日
+   platforms: [twitter, pixiv]
+characters: [Ichirin, Futo]
+message: 12/10 is **IchiFuto Day**!
+explanation: >
+ Goroawase: 1(Ichi)2(Fu)10(To)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/12月10日はいちふとの日
+---
+month: 12
+day: 24
+name: Yaku-ristmas Eve
+tags:
+ - name: 厄リスマス
+   platforms: [twitter, pixiv]
+characters: [Hina]
+message: 12/24 is **Yaku-ristmas Eve**! Happy Holidays!
+explanation: >
+ Portmanteau of Yakujin (curse god, Hina's species) and Christmas.
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/厄リスマス

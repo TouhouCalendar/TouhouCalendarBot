@@ -1,0 +1,86 @@
+---
+month: 1
+day: 5
+name: Yumemi Day
+tags:
+ - name: 1月5日は教授の日
+   platforms: [twitter, pixiv]
+ - name: 『毎月15日と1月5日は教授の日』
+   platforms: [pixiv]
+characters: [Yumemi]
+message: Don't (Strawberry) Panic! 1/5 is **Professor Yumemi's Day**!
+explanation: >
+ Goroawase: 1(ichi)5(go)=Ichigo (Strawberry)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/『毎月15日と1月5日は教授の日』
+---
+month: 1
+day: 6
+name: Reimu Day
+tags:
+ - name: 1月6日は霊夢の日
+   platforms: [twitter, pixiv]
+characters: [Reimu]
+message: 01/6 is **Reimu Day**!
+explanation: >
+ Goroawase: 0(Re)1(i)6(mu)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/1月6日は霊夢の日
+---
+month: 1
+day: 7
+name: (Super) Hina Day
+tags:
+ - name: 毎年1月7日はスーパー雛の日
+   platforms: [twitter, pixiv]
+characters: [Hina]
+message: 1/7 is **Super Hina Day**!
+explanation: >
+ Goroawase: 1(Hi)7(na)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/毎年1月7日はスーパー雛の日
+---
+month: 1
+day: 9
+name: Iku Day
+tags:
+ - name: 1月9日は衣玖さんの日
+   platforms: [twitter, pixiv]
+characters: [Iku]
+message: 1/9 is **Iku Day**!
+explanation: >
+ Goroawase: 1(I)9(Ku)
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/1月9日は衣玖さんの日
+---
+month: 1
+day: 10
+name: Highly Responsive to Prayers Day
+tags:
+ - name: 1月10日は靈異伝の日
+   platforms: [twitter, pixiv]
+characters: [HRTP]
+message: 01/10 is **Highly Responsive to Prayers Day**!
+explanation: >
+ Goroawase: 0(Rei)1(i)10(den)=Touhou Reiiden~ The Highly Responsive to Prayers
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/1月10日は靈異伝の日
+---
+month: 1
+day: 10
+name: Momiji Day
+tags:
+ - name: 1月10日は椛の日
+   platforms: [twitter, pixiv]
+characters: [Momiji]
+message: Wan, Wan, Awoo! 1/10 is **Momiji Day**!
+explanation: >
+ Goroawase: "One" sounds like "wan", "0" read as"Oh"
+citations:
+ - name: Pixiv Dictionary
+   url: http://dic.pixiv.net/a/1月10日は椛の日
