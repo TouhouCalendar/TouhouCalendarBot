@@ -84,6 +84,17 @@ for i in range(1,13):
 def days_for(day: datetime.date) -> Optional[List[TouhouDay]]:
     return DAYS.get((day.month, day.day))
 
+def upcoming_days(startdate: datetime.date, enddate: datetime.date, min_days: int = 5) -> Tuple[datetime.date, List[TouhouDay]]:
+    date = startdate
+    count = 0
+    while (date < enddate) or (count < min_days):
+        days = days_for(date)
+        if days is not None:
+            count += len(days)
+            yield (date, days)
+
+        date += datetime.timedelta(days=1)
+
 def format_twitter(day: TouhouDay) -> str:
     return f"{day.message.replace('**', '')} {' '.join('#' + tag.name for tag in day.tags if tag.is_twitter())}"
 
@@ -108,30 +119,20 @@ def format_discord_embed(days: List[TouhouDay]) -> dict:
 
 def format_upcoming_twitter(startdate: datetime.date, enddate: datetime.date) -> str:
     lines: List[str] = []
-    date = startdate
-    while date < enddate:
-        touhoudays = days_for(date)
-        if touhoudays is not None:
-            lines.append(
-                f"{date.month}/{date.day}: {', '.join(day.name for day in touhoudays)}"
-            )
-                
-        date += datetime.timedelta(days=1)
+    for date, touhoudays in upcoming_days(startdate, enddate):
+        lines.append(
+            f"{date.month}/{date.day}: {', '.join(day.name for day in touhoudays)}"
+        )
 
     return "Upcoming:\n" + "\n".join(lines)
     
 
 def format_upcoming_discord_embed(startdate: datetime.date, enddate: datetime.date) -> dict:
     lines: List[str] = []
-    date = startdate
-    while date < enddate:
-        touhoudays = days_for(date)
-        if touhoudays is not None:
-            lines.append(
-                f"{date.month}/{date.day}: {', '.join(day.name for day in touhoudays)}"
-            )
-                
-        date += datetime.timedelta(days=1)
+    for date, touhoudays in upcoming_days(startdate, enddate):
+        lines.append(
+            f"{date.month}/{date.day}: {', '.join(day.name for day in touhoudays)}"
+        )
 
     return {
         "title": "Upcoming Days",

@@ -12,12 +12,13 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--discord-only", action="store_true")
 parser.add_argument("--twitter-only", action="store_true")
 parser.add_argument("--dry", action="store_true")
+parser.add_argument("--force", action="store_true")
 parser.add_argument("--date")
 
 args = parser.parse_args()
 
 if args.date:
-    if not args.dry:
+    if (not args.force) and (not args.dry):
         print("Date specified for non-dry run!")
         sys.exit(1)
 
