@@ -6,6 +6,9 @@ import logging
 import datetime
 import argparse
 
+from urllib.parse import urlparse
+import redis # We're webscale now.
+
 logging.basicConfig()
 
 parser = argparse.ArgumentParser()
@@ -29,6 +32,14 @@ else:
     today_jst = datetime.datetime.now(JST).date()
 
     date_utc = datetime.datetime.utcnow().date()
+
+rediscloud_url = os.environ.get('REDISCLOUD_URL')
+if rediscloud_url:
+    url = urlparse(rediscloud_url)
+    r = redis.Redis(host=url.hostname, port=url.port, password=url.password)
+else:
+    # Default to localhost, default port, no password
+    r = redis.Redis()
 
 touhoudays = days_for(today_jst)
 print(today_jst, touhoudays)
@@ -74,10 +85,20 @@ if not args.discord_only:
                 # Todo: Proper tweet split here, only relevant for heavy days
                 api.PostUpdate(twitter_preview)
 
+            prev_status_ids = r.get("posts:"+(date_utc-datetime.timedelta(days=1)).isoformat())
+            if prev_status_ids is not None:
+                for id_bytes in prev_status_ids.split(b' '):
+                    api.PostRetweet(int(id_bytes))
+
             if touhoudays is not None:
+                status_ids = []
                 for day in touhoudays:
                     #Todo: Post in reverse order of importance, so biggest day shows up first to viewers?
-                    api.PostUpdate(format_twitter(day))
+                    status = api.PostUpdate(format_twitter(day))
+                    status_ids.append(status.id)
+
+                r.setex("posts:"+date_utc.isoformat(), datetime.timedelta(days=3), " ".join(str(i) for i in status_ids))
+                    
         except:
             logging.exception('Failed to send tweet')
 
@@ -90,7 +111,8 @@ if not args.twitter_only and len(embeds) > 0:
             WEBHOOK_URL = os.environ['WEBHOOK_URL']
             import requests
 
-            resp = requests.post(WEBHOOK_URL, data={'payload_json':json.dumps({'embeds': embeds})})
-            print(resp)
+            for webhook_url in WEBHOOK_URL.split(" "):
+                resp = requests.post(webhook_url, data={'payload_json':json.dumps({'embeds': embeds})})
+                print(resp)
         except:
             logging.exception('Failed to send Discord message')
