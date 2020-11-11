@@ -9,6 +9,10 @@ tags:
    platforms: [twitter, pixiv]
  - name: 7月4日はフランちゃんの日
    platforms: [twitter, pixiv]
+ - name: 7月4日はフランドールの日
+   platforms: [twitter, pixiv]
+ - name: フランの日
+   platforms: [twitter, pixiv]
 characters: [Flandre]
 message: 4/95 is **Flan's Day**!
 explanation: >
@@ -136,12 +140,14 @@ citations:
 month: 7
 day: 14
 name: Sunflower Day
-tags:
+tags: # TODO: Some of these may be too generic. Move them to the exemption list if req'd
  - name: 7月14日は風見幽香の日
    platforms: [twitter, pixiv]
  - name: 7/14はひまわりの日
    platforms: [pixiv]
  - name: 7月14日はひまわりの日
+   platforms: [twitter, pixiv]
+ - name: ひまわりの日
    platforms: [twitter, pixiv]
 characters: [Yuuka]
 message: 7/14 is **Sunflower Day**!

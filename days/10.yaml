@@ -40,6 +40,8 @@ name: Tenshi Day
 tags:
  - name: 10月4日は天子の日
    platforms: [twitter, pixiv]
+ - name: 天子の日
+   platforms: [twitter, pixiv]
 characters: [Tenshi]
 message: 10/4 is **Tenshi Day**!
 explanation: >
@@ -67,6 +69,10 @@ day: 5
 name: Tenko Day
 tags:
  - name: 10月5日はてんこの日
+   platforms: [twitter, pixiv]
+ - name: 10月5日は天子の日
+   platforms: [twitter, pixiv]
+ - name: 天子の日
    platforms: [twitter, pixiv]
 characters: [Tenshi]
 message: 10/5 is **Tenko Day**!

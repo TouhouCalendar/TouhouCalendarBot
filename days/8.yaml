@@ -291,6 +291,8 @@ tags:
    platforms: [twitter, pixiv]
  - name: 妖夢の日
    platforms: [twitter, pixiv]
+ - name: 博麗の日
+   platforms: [twitter, pixiv]
 characters: [Reimu]
 message: 8/9 is **Hakurei Day**!
 explanation: >
