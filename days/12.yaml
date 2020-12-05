@@ -1,5 +1,23 @@
 ---
 month: 12
+day: 4
+name: Hecatia Day
+tags:
+ - name: 12月4日はヘカーティアの日
+   platforms: [twitter, pixiv]
+characters: [Hecatia]
+message: 12/4 is **Hecatia Day**, y'know?
+explanation: >
+ December's birth stone is Lapis Lazuli (at least, in the National Association of Jewelers' original 1912 list). 
+ The 04 is a goroawase pun 0(wa)4(yon)=wayon, a phrase spoken by Hecatia in the LoLK Extra Stage.
+ It sometimes serves as a fanon catchphrase of hers, similar to "mukyuu" for Patchouli and "myon" for Youmu.
+citations:
+ - name: Explanation Tweet
+   url: https://twitter.com/itatatata6/status/1017897946568798208
+ - name: Example of "Wayon" (Touhou Wiki)
+   url: https://en.touhouwiki.net/wiki/Legacy_of_Lunatic_Kingdom/Story/Reimu%27s_Extra
+---
+month: 12
 day: 9
 name: Hifuu Club Day
 tags:
