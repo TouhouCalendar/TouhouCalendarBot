@@ -45,14 +45,20 @@ citations:
 ---
 month: 2
 day: 7
-name: Toyosatomimi no Miko Day
+name: Toyosatomimi no Miko's Birthday
 tags:
+ - name: 豊聡耳神子生誕祭
+   platforms: [twitter, pixiv]
+ - name: 2月7日は豊聡耳神子のお誕生日
+   platforms: [twitter, pixiv]
+ - name: 2月7日は神子の日
+   platforms: [twitter, pixiv]
  - name: 2月7日は神子さんの日
    platforms: [twitter, pixiv]
 characters: [Miko]
-message: 2/7 is **Toyosatomimi no Miko Day**!
+message: 2/7 is **Toyosatomimi no Miko's Birthday**!
 explanation: >
- Historical day: 2/7 is Prince Shōtoku's birthday
+ Historical day: 2/7 was the real Prince Shōtoku's birthday.
 citations:
  - name: Pixiv Dictionary
    url: http://dic.pixiv.net/a/2月7日は神子さんの日
@@ -62,6 +68,8 @@ day: 8
 name: Kutaka Day
 tags:
  - name: 2月8日は久侘歌の日
+   platforms: [twitter, pixiv]
+ - name: 久侘歌の日
    platforms: [twitter, pixiv]
 characters: [Kutaka]
 message: 2/8 is **Kutaka Day**! 🐔

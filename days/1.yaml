@@ -84,3 +84,29 @@ explanation: >
 citations:
  - name: Pixiv Dictionary
    url: http://dic.pixiv.net/a/1月10日は椛の日
+---
+month: 1
+day: 10
+name: Yamame Day
+tags:
+ - name: 1月10日はヤマメの日
+   platforms: [twitter, pixiv]
+characters: [Yamame]
+message: 1/10 is **Yamame Day**!
+explanation: >
+ Goroawase: 1(i)10(to)=糸 (Thread), alluding to threads of spider silk.
+citations:
+ - name: Explanation Tweet
+   url: https://twitter.com/JR_E127ysk/status/685976128251531264
+---
+month: 1
+day: 10
+name: Well (Kisume) Day
+tags:
+ - name: 1月10日は井戸の日
+   platforms: [twitter, pixiv]
+characters: [Kisume]
+message: 1/10 is **Well Day**! Wish Kisume well!
+explanation: >
+ Goroawase: 1(i)10(do)=井戸 (Well). Kisume is of course associated with wells, as she lives in a well bucket.
+citations:

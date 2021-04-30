@@ -96,7 +96,7 @@ def upcoming_days(startdate: datetime.date, enddate: datetime.date, min_days: in
         date += datetime.timedelta(days=1)
 
 def format_twitter(day: TouhouDay) -> str:
-    return f"{day.message.replace('**', '')} {' '.join('#' + tag.name for tag in day.tags if tag.is_twitter())}"
+    return f"{day.message.replace('**', '')} {' '.join('#' + tag.name for tag in day.tags if tag.is_twitter())}"#\n\n({day.explanation.strip()})"
 
 def format_discord_embed(days: List[TouhouDay]) -> dict:
     day_messages: List[str] = []

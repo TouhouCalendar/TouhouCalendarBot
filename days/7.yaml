@@ -206,6 +206,25 @@ citations:
    url: http://dic.pixiv.net/a/7月20日はナズーリンの日
 ---
 month: 7
+day: 21
+name: Nemuno Day
+tags:
+ - name: 7月21日はネムノの日
+   platforms: [twitter, pixiv]
+characters: [Nemuno]
+message: 7/21 is **Nemuno Day**!
+explanation: >
+ One tweet says it's because the Japanese sword "Yamanbagiri Kunihiro" was designated as an important cultural property on June 21st, 1962. As the name indicates, its legend is directly associated with Yamanba.
+ Another says that the birth flower of June 21st is the "Nemunoki", which has a clear name connection to Nemuno.
+citations:
+ - name: Explanation Tweet
+   url: https://twitter.com/JR_E127ysk/status/1020351300666458112
+ - name: Yamannbagiri Kunihiro @ tsuruginoya.net
+   url: https://www.tsuruginoya.net/stories/yamannbagirikunihiro/
+ - name: Explanation Tweet
+   url: https://twitter.com/O2_hshs/status/1285327666413858816
+---
+month: 7
 day: 26
 name: Kana Anaberal Day
 tags:

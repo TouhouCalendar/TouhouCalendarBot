@@ -154,6 +154,22 @@ citations:
    url: http://dic.pixiv.net/a/9月19日は小傘の日
 ---
 month: 9
+day: 21
+name: Aki Equinox
+tags:
+ - name: 秋分の日は秋姉妹の日 
+   platforms: [twitter, pixiv]
+ - name: 秋静葉  #Added the character tags here because art for them isn't always tagged with the seasonal tag.
+   platforms: [twitter, pixiv]
+ - name: 秋穣子
+   platforms: [twitter, pixiv]
+characters: [Shizuha, Minoriko]
+message: The Autumn Equinox is the **Aki Sisters' Day**!
+explanation: >
+ The Aki sisters are associated with autumn, as their surname Aki literally means autumn.
+citations: #
+---
+month: 9
 day: 30
 name: Kurumi Day
 tags:

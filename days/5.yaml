@@ -100,6 +100,24 @@ citations:
    url: http://dic.pixiv.net/a/5月15日はこいここの日
 ---
 month: 5
+day: 15
+name: Raiko Day
+tags:
+ - name: 5月15日は堀川雷鼓の日
+   platforms: [twitter, pixiv]
+ - name: 5月15日は雷鼓の日
+   platforms: [twitter, pixiv]
+characters: [Raiko]
+message: 🥁 5/15 is **Raiko Day**!
+explanation: >
+ If the first 5 is changed to the similar-looking kana 'ら', it reads as ら(ra)1(i)5(go/ko)=Raiko
+citations:
+ - name: Explanation Tweet
+   url: https://twitter.com/Xj9B6/status/1128626214854217728
+ - name: Explanation Tweet
+   url: https://twitter.com/raiko_hachiY/status/1258920238709530624
+---
+month: 5
 day: 16
 name: Love-Colored Day
 tags:

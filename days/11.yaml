@@ -51,6 +51,23 @@ citations:
 ---
 month: 11
 day: 11
+name: Satori Day
+tags:
+ - name: 11月11日はさとりの日
+   platforms: [twitter, pixiv]
+characters: [Satori]
+message: 11/11 is **Satori Day**! Truly magnificent, it defies comaprison to any other.
+explanation: >
+ In Strange Creators of Outside World vol. 5's cross review, Satori rates herself at an 11/10 due to how powerful (she thinks) mind reading is.
+ As such, she is memetically linked to the number 11.
+citations:
+ - name: "\"11 Points\" @ Pixiv Dictionary"
+   url: https://dic.pixiv.net/a/11%E7%82%B9%E3%81%AE%E5%A5%B3
+ - name: English Translation of SCoOW cross reviews
+   url: https://clarste.tumblr.com/post/172399485041
+---
+month: 11
+day: 11
 name: Onbashira Day
 tags:
  - name: 11月11日は御柱の日

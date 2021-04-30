@@ -45,6 +45,11 @@ for month,day in DAYS:
         if LINK_REGEX.search(day.explanation):
             print(f"Day {dayname} has links in explanation!")
 
+        tweettext = format_twitter(day)
+        invalid = TwitterText(tweettext).validation.tweet_invalid()
+        if invalid:
+            print(f"Day {dayname} invalid tweet text: {invalid}! \"{tweettext}\"")
+
         #for citation in day.citations:
         #    r = requests.get(citation.url)
         #    if r.status_code != 200:

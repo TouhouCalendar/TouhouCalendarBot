@@ -214,3 +214,15 @@ explanation: >
 citations:
  - name: Pixiv Dictionary
    url: https://dic.pixiv.net/a/3月2日と21日はサニーミルクの日
+---
+month: 3
+day: 24
+name: Sannyo Day
+tags:
+ - name: 3月24日は山如の日
+   platforms: [twitter, pixiv]
+characters: [Sannyo]
+message: 3/24 is **Sannyo Day**!
+explanation: >
+ Goroawase: 3(San)2(ni)4(yo)=Sannyo
+citations: #None

@@ -26,7 +26,7 @@ tags:
  - name: 12月9日は秘封倶楽部の日
    platforms: [twitter, pixiv]
 characters: [Renko, Merry]
-message: 12/9 is **Secret Sealing Club Day**!
+message: 12/9 is **Hifuu Club Day**!
 explanation: >
  Goroawase: 1(Hi)2(Fu) 9(Ku) = Hifuu Club.
 citations:
@@ -48,6 +48,30 @@ citations:
    url: http://dic.pixiv.net/a/12月10日はいちふとの日
 ---
 month: 12
+day: 12
+name: Hifuu Hifuu Day
+tags:
+ - name: 12月12日は秘封秘封の日
+   platforms: [twitter, pixiv]
+characters: [Renko, Merry]
+message: 12/12 is **Hifuu Hifuu Day**!
+explanation: >
+ Goroawase: 1(Hi)2(fu) 1(Hi)2(fu) = Hifuu (secret), as in Hifuu Club.
+citations: #Needed...
+---
+month: 12
+day: 21 # Technically this varies year to year but eh this'll do for now
+name: Letty Solstice
+tags:
+ - name: 冬至の日はレティの日
+   platforms: [twitter, pixiv]
+characters: [Letty]
+message: The Winter Solstice is **Letty's Day**!
+explanation: >
+ Letty, as a yuki-onna, is associated with winter.
+citations:
+---
+month: 12
 day: 24
 name: Yaku-ristmas Eve
 tags:
@@ -60,3 +84,14 @@ explanation: >
 citations:
  - name: Pixiv Dictionary
    url: http://dic.pixiv.net/a/厄リスマス
+# ---
+# month: 12
+# day: 25
+# name: Christmas Day
+# tags:
+#  - name: 東方クリスマス
+#    platforms: [twitter, pixiv]
+# characters: [] 
+# message: Merry Christmas!
+# explanation: #No
+# citations: #No
