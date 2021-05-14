@@ -5,6 +5,10 @@ name: Fête du Muguet (Medicine)
 tags:
  - name: コンパロ祭
    platforms: [twitter, pixiv]
+ - name: ミュゲーの祭日
+   platforms: [twitter, pixiv]
+ - name: ミュゲーの祭日なのでメディちゃんを見てくれ
+   platforms: [twitter, pixiv]
 characters: [Medicine]
 message: Konparo, Konparo, Doku yo atsumare~ Heureux **Fête du Muguet!** avec Medicine!
 explanation: >
@@ -42,6 +46,32 @@ explanation: >
 citations:
  - name: Pixiv Dictionary
    url: http://dic.pixiv.net/a/5月5～6日はこころの日
+---
+month: 5
+day: 5
+name: Hand-held Wriggle Day
+tags:
+ - name: 5月5日は手乗りぐるの日
+   platforms: [twitter, pixiv]
+characters: [Wriggle]
+message: 5/5 is **Hand-held Wriggle Day**!
+explanation: >
+ Etymology unknown. The tag name is a portmanteau of "手乗り" (Tenori, To hold/cradle in the hand) and "りぐる" (Wriggle)
+citations:
+ - name: 手乗り @ Jisho.org
+   url: https://jisho.org/search/手乗り
+---
+month: 5
+day: 9
+name: Koakuma Day
+tags:
+ - name: 5月9日は小悪魔の日
+   platforms: [pixiv, twitter]
+characters: [Koakuma]
+message: 5/9 is **Koakuma Day**!
+explanation: >
+ Goroawase: 5(Ko)9(Ku)=Ko(a)Ku(ma)
+citations:
 ---
 month: 5
 day: 10

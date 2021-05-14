@@ -196,6 +196,20 @@ citations:
    url: http://dic.pixiv.net/a/2月23日は幽々子の日
 ---
 month: 2
+day: 25
+name: FuTojiko Day
+tags:
+ - name: 2月25日はふとじこの日
+   platforms: [twitter, pixiv]
+characters: [Futo, Tojiko]
+message: 2/25 is FuTojiko day!
+explanation: >
+ Goroawase: 2(Fu)と(To)2(ji)5(ko)
+citations:
+ - name: Explanation Illustration
+   url: https://twitter.com/kachulie/status/1359109351353376769/photo/2
+---
+month: 2
 day: 29
 name: Miyako Day
 tags:
