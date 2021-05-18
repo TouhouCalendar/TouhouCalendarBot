@@ -13,6 +13,7 @@ characters: [Medicine]
 message: Konparo, Konparo, Doku yo atsumare~ Heureux **Fête du Muguet!** avec Medicine!
 explanation: >
  In France, May/Labour Day is Fête du Muguet, as the lily of the valley (Muguet in French) symbolizes the return of happiness. Medicine is associated with the lily of the valley as well. The tag name, "Konparo Festival", references a line Medicine says in PoFV.
+explanation_short: 5/1 is Muguet (lily of the valley) day in France.
 citations:
  - name: Pixiv Dictionary
    url: http://dic.pixiv.net/a/コンパロ祭
@@ -162,6 +163,20 @@ explanation: >
 citations:
  - name: Pixiv Dictionary
    url: http://dic.pixiv.net/a/恋色の日
+---
+month: 5
+day: 18
+name: Sanae Day
+tags:
+ - name: 5月18日は東風谷の日 
+   platforms: [twitter, pixiv]
+ - name: 5月18日は早苗の日
+   platforms: [twitter, pixiv]
+characters: [Sanae]
+message: 5/18 is **Sanae Day**! Miraculous!
+explanation: >
+ Goroawase: 5(Ko)1(i)8(ya)=Kochiya
+citations: #None
 ---
 month: 5
 day: 26

@@ -105,7 +105,8 @@ tags:
 characters: [Rumia]
 message: 10/7 is **Rumia Day**! Is that so?
 explanation: >
- The Japanese character for 10 (十) looks like Rumia's iconic t-pose (as discussed in her EoSD dialogue). The kanji for 10 can also be read as "so", in combination with 7(na), it forms the first characters of her catchphrase "So nano ka?"
+ The Japanese character for 10 (十) looks like Rumia's iconic t-pose (as discussed in her EoSD dialogue). The kanji for 10 can also be read as "so", in combination with 7(na), it forms the first characters of her "catchphrase" "So nano ka?"
+explanation_short: 10 (十) looks like Rumia's iconic t-pose. If read instead as 十(So), with 7(Na) it's part of her "catchphrase" "So nano ka?"
 citations:
  - name: Explanation Illustration
    url: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=13452956
@@ -192,6 +193,7 @@ characters: [Marisa, Alice]
 message: 10/15 is **Mushroom Day** and **Doll Day**, so it's **MariAli Day**!
 explanation: >
  Oct. 15 is both National Mushroom Day and a Japanese Doll Day. Marisa is associated with mushrooms, and Alice is associated with dolls.
+explanation_short: Marisa is associated with mushrooms, and Alice is associated with dolls.
 citations:
  - name: Explanation Illustration
    url: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=21728758

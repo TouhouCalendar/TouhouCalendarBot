@@ -105,7 +105,7 @@ if not args.discord_only:
 if not args.twitter_only and len(embeds) > 0:
     if args.dry:
         #Todo: Better dry run
-        print(embeds)
+        print(json.dumps(embeds))
     else:
         try:
             WEBHOOK_URL = os.environ['WEBHOOK_URL']

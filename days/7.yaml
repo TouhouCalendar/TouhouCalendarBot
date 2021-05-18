@@ -216,6 +216,7 @@ message: 7/21 is **Nemuno Day**!
 explanation: >
  One tweet says it's because the Japanese sword "Yamanbagiri Kunihiro" was designated as an important cultural property on June 21st, 1962. As the name indicates, its legend is directly associated with Yamanba.
  Another says that the birth flower of June 21st is the "Nemunoki", which has a clear name connection to Nemuno.
+explanation_short: Possibly the day the "Yamanbagiri Kunihiro" was designated a cultural property, or because the day's birth flower is the Nemunoki
 citations:
  - name: Explanation Tweet
    url: https://twitter.com/JR_E127ysk/status/1020351300666458112

@@ -39,6 +39,7 @@ class TouhouDay:
     tags: List[Tag] 
     characters: List[str] # List of characters associated with the day, kinda ill-specified as of yet need to come up with a list of characters and filter these
     explanation: str # Plaintext description of the day's derivation. Needs copyediting to be made consistent
+    explanation_short: str # Short version of above, for use with inline explanations. Defaults to full explanation if not provided.
     citations: List[Citation]
 
 ALL_DAYS: List[TouhouDay] = []
@@ -68,6 +69,10 @@ for i in range(1,13):
                 days = []
                 DAYS[d] = days
 
+            explanation = day["explanation"].strip()
+            explanation_short = day.get("explanation_short", explanation)
+            explanation_short = explanation_short.strip(" .,")
+
             touhouday = TouhouDay(
                 month=day["month"],
                 day=day["day"],
@@ -75,7 +80,8 @@ for i in range(1,13):
                 message=day["message"],
                 tags=tags,
                 characters=day["characters"],
-                explanation=day["explanation"],
+                explanation=explanation,
+                explanation_short=explanation_short,
                 citations=citations
             )
             ALL_DAYS.append(touhouday)
@@ -96,7 +102,7 @@ def upcoming_days(startdate: datetime.date, enddate: datetime.date, min_days: in
         date += datetime.timedelta(days=1)
 
 def format_twitter(day: TouhouDay) -> str:
-    return f"{day.message.replace('**', '')} {' '.join('#' + tag.name for tag in day.tags if tag.is_twitter())}"#\n\n({day.explanation.strip()})"
+    return f"{day.message.replace('**', '')} {' '.join('#' + tag.name for tag in day.tags if tag.is_twitter())}\n\n({day.explanation_short})"
 
 def format_discord_embed(days: List[TouhouDay]) -> dict:
     day_messages: List[str] = []
@@ -110,7 +116,7 @@ def format_discord_embed(days: List[TouhouDay]) -> dict:
                 taglinks.append(f"[twitter]({tag.twitter_link()})")
             tags.append(f"#{tag.name} ({'|'.join(taglinks)})")
 
-        day_messages.append(f"{day.message} {' '.join(tags)}")
+        day_messages.append(f"{day.message} {' '.join(tags)}  \n*{day.explanation_short}*")
 
     return {
         "color": 13632027,
