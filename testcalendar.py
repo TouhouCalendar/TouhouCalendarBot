@@ -51,7 +51,7 @@ for month,day in DAYS:
             print(f"Day {dayname} invalid tweet text: {invalid}! \"{tweettext}\"")
 
         #for citation in day.citations:
-        #    r = requests.get(citation.url)
+        #    r = requests.head(citation.url, allow_redirects=True)
         #    if r.status_code != 200:
         #        print("Day {} citation {} status code {}!".format(day.name, citation.url, r.status_code))
 

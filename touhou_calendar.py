@@ -119,7 +119,7 @@ def format_discord_embed(days: List[TouhouDay]) -> dict:
         day_messages.append(f"{day.message} {' '.join(tags)}  \n*{day.explanation_short}*")
 
     return {
-        "color": 13632027,
+        "color": 13632027, # Reimu Red
         "description": "\n".join(day_messages),
     }
 
@@ -137,12 +137,12 @@ def format_upcoming_discord_embed(startdate: datetime.date, enddate: datetime.da
     lines: List[str] = []
     for date, touhoudays in upcoming_days(startdate, enddate):
         lines.append(
-            f"{date.month}/{date.day}: {', '.join(day.name for day in touhoudays)}"
+            f"[{date.month}/{date.day}: {', '.join(day.name for day in touhoudays)}](https://touhoucalendar.github.io/#{date.month}-{date.day})"
         )
 
     return {
         "title": "Upcoming Days",
-        "color": 16312092,
+        "color": 16312092, # Marisa Yellow
         "description": "\n".join(lines),
     }
 
