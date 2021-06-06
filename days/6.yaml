@@ -84,6 +84,20 @@ citations:
    url: http://dic.pixiv.net/a/6月6日は赤蛮奇の日
 ---
 month: 6
+day: 7
+name: JunHeca Day
+tags:
+ - name: 6月7日は純ヘカの日
+   platforms: [twitter, pixiv]
+characters: [Junko, Hecatia]
+message: 6/7 is **JunHeca** Day!
+explanation: >
+ "6月7日" has 6 (Junko, 6th boss) and 7 (Hecatia, 7th boss) around the kanji meaning month/moon (月)
+citations:
+ - name: Explanation Tweet
+   url: https://twitter.com/kaisenpurin/status/1268937008992280578
+---
+month: 6
 day: 9
 name: Patchouli Day
 tags:
