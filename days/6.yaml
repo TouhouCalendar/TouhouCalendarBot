@@ -92,7 +92,7 @@ tags:
 characters: [Junko, Hecatia]
 message: 6/7 is **JunHeca** Day!
 explanation: >
- "6月7日" has 6 (Junko, 6th boss) and 7 (Hecatia, 7th boss) around the kanji meaning month/moon (月)
+ "6月7日" has 6 (Junko, 6th boss) and 7 (Hecatia, 7th boss) around the kanji meaning month/moon (月).
 citations:
  - name: Explanation Tweet
    url: https://twitter.com/kaisenpurin/status/1268937008992280578
@@ -108,7 +108,7 @@ tags:
 characters: [Patchouli]
 message: Mukyuu! 6/9 is **Patchouli Day**!
 explanation: >
- Goroawase: 6(Mu)9(Kyu)=Mukyuu, Patchouli's "catchphrase"
+ Goroawase: 6(Mu)9(Kyu)=Mukyuu, Patchouli's "catchphrase".
 citations:
  - name: Pixiv Dictionary
    url: http://dic.pixiv.net/a/6月9日はパチュリーの日
@@ -145,6 +145,10 @@ month: 6
 day: 11
 name: Umbrella Day
 tags:
+ - name: 6月11日は多々良小傘の日
+   platforms: [twitter, pixiv]
+ - name: 6月11日は小傘の日
+   platforms: [twitter, pixiv]
  - name: 6月11日は傘の日
    platforms: [twitter, pixiv]
  - name: 傘の日
@@ -156,6 +160,18 @@ explanation: >
 citations:
  - name: Pixiv Dictionary
    url: http://dic.pixiv.net/a/6月11日は傘の日
+---
+month: 6
+day: 13
+name: Unconscious's Day
+tags:
+ - name: 6月14日は無意識の日
+   platforms: [twitter, pixiv]
+characters: [Koishi]
+message: 6/14 is the **Unconscious's Day**! I love not thinking!
+explanation: >
+ Goroawase: 6(Mu)1(i)4(shi) = Muishiki (無意識), meaning "the unconscious" in psychology, a theme for Koishi.
+citations: #There has to be one
 ---
 month: 6
 day: 16
