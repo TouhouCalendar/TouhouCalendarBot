@@ -88,7 +88,8 @@ if not args.discord_only:
             prev_status_ids = r.get("reposts:"+(date_utc-datetime.timedelta(days=1)).isoformat())
             if prev_status_ids:
                 for id_bytes in prev_status_ids.split(b' '):
-                    api.DestroyStatus(int(id_bytes))
+                    pass
+                    #api.DestroyStatus(int(id_bytes)) # Potentially problematic.
 
 
             prev_status_ids = r.get("posts:"+(date_utc-datetime.timedelta(days=1)).isoformat())
