@@ -85,10 +85,19 @@ if not args.discord_only:
                 # Todo: Proper tweet split here, only relevant for heavy days
                 api.PostUpdate(twitter_preview)
 
+            prev_status_ids = r.get("reposts:"+(date_utc-datetime.timedelta(days=1)).isoformat())
+            if prev_status_ids:
+                for id_bytes in prev_status_ids.split(b' '):
+                    api.DestroyStatus(int(id_bytes))
+
+
             prev_status_ids = r.get("posts:"+(date_utc-datetime.timedelta(days=1)).isoformat())
             if prev_status_ids is not None:
+                retweet_ids = []
                 for id_bytes in prev_status_ids.split(b' '):
-                    api.PostRetweet(int(id_bytes))
+                    retweet = api.PostRetweet(int(id_bytes))
+                    retweet_ids.append(retweet.id)
+                r.setex("reposts:"+date_utc.isoformat(), datetime.timedelta(days=3), " ".join(str(i) for i in retweet_ids))
 
             if touhoudays is not None:
                 status_ids = []
