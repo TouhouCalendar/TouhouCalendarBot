@@ -188,6 +188,20 @@ citations:
    url: http://dic.pixiv.net/a/6月16日はマリアリの日
 ---
 month: 6
+day: 18
+name: Hatate Day
+tags:
+ - name: 6月18日ははたての日
+   platforms: [twitter, pixiv]
+ - name: 6月18日は姫海棠はたての日
+   platforms: [twitter, pixiv]
+characters: [Hatate]
+message: 6/18 is **Hatate Day**!
+explanation: >
+ Goroawase: 6(Ha)18(ta-eight) = Hatate
+citations:
+---
+month: 6
 day: 24
 name: Nue Day
 tags:

@@ -14,6 +14,7 @@ logging.basicConfig()
 parser = argparse.ArgumentParser()
 parser.add_argument("--discord-only", action="store_true")
 parser.add_argument("--twitter-only", action="store_true")
+parser.add_argument("--today-only", action="store_true")
 parser.add_argument("--dry", action="store_true")
 parser.add_argument("--force", action="store_true")
 parser.add_argument("--date")
@@ -81,23 +82,24 @@ if not args.discord_only:
                               access_token_key=ACC_TOKEN,
                               access_token_secret=ACC_SECRET)
 
-            if twitter_preview is not None:
-                # Todo: Proper tweet split here, only relevant for heavy days
-                api.PostUpdate(twitter_preview)
+            if not args.today_only:
+                if twitter_preview is not None:
+                    # Todo: Proper tweet split here, only relevant for heavy days
+                    api.PostUpdate(twitter_preview)
 
-            prev_status_ids = r.get("reposts:"+(date_utc-datetime.timedelta(days=1)).isoformat())
-            if prev_status_ids:
-                for id_bytes in prev_status_ids.split(b' '):
-                    api.DestroyStatus(int(id_bytes))
+                prev_status_ids = r.get("reposts:"+(date_utc-datetime.timedelta(days=1)).isoformat())
+                if prev_status_ids:
+                    for id_bytes in prev_status_ids.split(b' '):
+                        api.DestroyStatus(int(id_bytes))
 
 
-            prev_status_ids = r.get("posts:"+(date_utc-datetime.timedelta(days=1)).isoformat())
-            if prev_status_ids is not None:
-                retweet_ids = []
-                for id_bytes in prev_status_ids.split(b' '):
-                    retweet = api.PostRetweet(int(id_bytes))
-                    retweet_ids.append(retweet.id)
-                r.setex("reposts:"+date_utc.isoformat(), datetime.timedelta(days=3), " ".join(str(i) for i in retweet_ids))
+                prev_status_ids = r.get("posts:"+(date_utc-datetime.timedelta(days=1)).isoformat())
+                if prev_status_ids is not None:
+                    retweet_ids = []
+                    for id_bytes in prev_status_ids.split(b' '):
+                        retweet = api.PostRetweet(int(id_bytes))
+                        retweet_ids.append(retweet.id)
+                    r.setex("reposts:"+date_utc.isoformat(), datetime.timedelta(days=3), " ".join(str(i) for i in retweet_ids))
 
             if touhoudays is not None:
                 status_ids = []
@@ -106,7 +108,8 @@ if not args.discord_only:
                     status = api.PostUpdate(format_twitter(day))
                     status_ids.append(status.id)
 
-                r.setex("posts:"+date_utc.isoformat(), datetime.timedelta(days=3), " ".join(str(i) for i in status_ids))
+                if not args.today_only:
+                    r.setex("posts:"+date_utc.isoformat(), datetime.timedelta(days=3), " ".join(str(i) for i in status_ids))
                     
         except:
             logging.exception('Failed to send tweet')
