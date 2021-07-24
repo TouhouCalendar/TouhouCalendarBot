@@ -224,6 +224,22 @@ citations:
    url: https://twitter.com/O2_hshs/status/1285327666413858816
 ---
 month: 7
+day: 23
+name: Aya Day
+tags:
+ - name: 7月23日は射命丸文の日
+   platforms: [twitter, pixiv]
+ - name: 7月23日は文の日
+   platforms: [twitter, pixiv]
+characters: [Aya]
+message: Ayayaya! 7/23 is **Aya Day**!
+explanation: >
+ July can also be written as 文月 (bungetsu), and 2(fu)3(mi) is an alternate reading for the kanji 文.
+citations:
+ - name: Explanation Tweet
+   url: https://twitter.com/arakawakoisi/status/1418575920730808326
+---
+month: 7
 day: 26
 name: Kana Anaberal Day
 tags:
