@@ -123,14 +123,21 @@ def format_discord_embed(days: List[TouhouDay]) -> dict:
         "description": "\n".join(day_messages),
     }
 
-def format_upcoming_twitter(startdate: datetime.date, enddate: datetime.date) -> str:
+def format_upcoming_twitter(startdate: datetime.date, enddate: datetime.date) -> List[str]:
     lines: List[str] = []
     for date, touhoudays in upcoming_days(startdate, enddate):
         lines.append(
             f"{date.month}/{date.day}: {', '.join(day.name for day in touhoudays)}"
         )
+    msg = "Upcoming:\n" + "\n".join(lines)
+    chunks: List[str] = []
+    while len(msg) > 280:
+        delim = msg.rfind('\n', 0, 280)
+        chunks.append(str(msg[0:delim]))
+        msg = msg[delim+1:]
+    chunks.append(str(msg))
 
-    return "Upcoming:\n" + "\n".join(lines)
+    return chunks
     
 
 def format_upcoming_discord_embed(startdate: datetime.date, enddate: datetime.date) -> dict:

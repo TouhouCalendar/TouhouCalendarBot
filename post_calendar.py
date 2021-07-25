@@ -84,8 +84,10 @@ if not args.discord_only:
 
             if not args.today_only:
                 if twitter_preview is not None:
-                    # Todo: Proper tweet split here, only relevant for heavy days
-                    api.PostUpdate(twitter_preview)
+                    in_reply_to_status_id = None
+                    for chunk in twitter_preview:
+                        post = api.PostUpdate(chunk, in_reply_to_status_id=in_reply_to_status_id)
+                        in_reply_to_status_id = post.id
 
                 prev_status_ids = r.get("reposts:"+(date_utc-datetime.timedelta(days=1)).isoformat())
                 if prev_status_ids:
