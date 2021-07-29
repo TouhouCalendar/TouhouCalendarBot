@@ -121,12 +121,12 @@ if not args.twitter_only and len(embeds) > 0:
         #Todo: Better dry run
         print(json.dumps(embeds))
     else:
-        try:
-            WEBHOOK_URL = os.environ['WEBHOOK_URL']
-            import requests
+        WEBHOOK_URL = os.environ['WEBHOOK_URL']
+        import requests
 
-            for webhook_url in WEBHOOK_URL.split(" "):
+        for webhook_url in WEBHOOK_URL.split(" "):
+            try:
                 resp = requests.post(webhook_url, json={'embeds': embeds})
                 print(resp)
-        except:
-            logging.exception('Failed to send Discord message')
+            except:
+                logging.exception('Failed to send Discord message {}'.format(webhook_url))
