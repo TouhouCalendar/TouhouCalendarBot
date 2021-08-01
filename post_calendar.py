@@ -48,7 +48,7 @@ print(today_jst, touhoudays)
 twitter_preview = None
 embeds = []
 
-if date_utc.weekday() == 6:
+if date_utc.weekday() == 6 and not args.today_only:
     # It's Sunday, my dudes. Post a preview
     preview_start = today_jst + datetime.timedelta(days=1)
     preview_end   = preview_start + datetime.timedelta(days=14)
