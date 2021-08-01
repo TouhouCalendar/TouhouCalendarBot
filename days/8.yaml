@@ -1,3 +1,28 @@
+month: 8
+day: 1
+name: Wakasagihime Day
+tags:
+ - name: 8月1日はわかさぎ姫の日
+   platforms: [twitter, pixiv]
+characters: [Wakasagihime]
+message: 🐟 8/1 is **Wakasagihime Day**!
+explanation: 8/1 is Water Day (水の日)
+citations:
+ - name: Explanation Illustration
+   url: https://www.pixiv.net/en/artworks/64170281
+---
+month: 8
+day: 1
+name: Nitori Day
+tags:
+ - name: 8月1日はにとりの日
+   platforms: [twitter, pixiv]
+characters: [Nitori]
+message: 🐢 8/1 is **Nitori Day**!
+explanation: 8/1 is Water Day (水の日)
+citations:
+ - name: Explanation Illustration
+   url: https://www.pixiv.net/en/artworks/64170281
 ---
 month: 8
 day: 2
