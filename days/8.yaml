@@ -73,8 +73,10 @@ tags:
 characters: [Meira]
 message: 8/3 is **Meira Day**!
 explanation: >
- ???
+ Goroawase: 8(Ya)/3(mi)=Yami, from Meira's theme Yami no Chikara ("やみのちから")
 citations:
+ - name: Explanation Tweet
+   url: https://twitter.com/JR_E127ysk/status/627812423903240192
 ---
 month: 8
 day: 4
@@ -82,10 +84,10 @@ name: Tojiko Day
 tags:
  - name: 8月4日は屠自古の日
    platforms: [twitter, pixiv]
-characters: [Tojiko ]
+characters: [Tojiko]
 message: 8/4 is **Tojiko Day**!
 explanation: >
- The linked illustration gives the explanation "8月4日ってやんよの日じゃね？→やってやんよ→屠自古の日"
+ Goroawase: 8(Ya)/4(yo)=Yatteyanyo! (やってやんよ!), Tojiko's "catchphrase" and only dialogue from TD.
 citations:
  - name: Pixiv Dictionary
    url: http://dic.pixiv.net/a/8月4日は屠自古の日
@@ -379,7 +381,7 @@ tags:
 characters: [Hatate]
 message: 8/10 is **Hatate Day**!
 explanation: >
- Goroawase: 8(ha)10(tou)?
+ Goroawase: 8(Ha)10(te(n))=Hatate
 citations:
  - name: Explanation Illustration
    url: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=51885270
