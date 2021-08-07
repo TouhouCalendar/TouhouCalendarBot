@@ -206,14 +206,14 @@ citations:
 ---
 month: 8
 day: 8
-name: Lyrica Day #2
+name: Lyrica Day
 tags:
  - name: 8月8日はリリカの日第二番
    platforms: [twitter, pixiv]
  - name: 8月8日はリリカの日
    platforms: [twitter, pixiv]
 characters: [Lyrica]
-message: 8/8 is **Lyrica Day #2**!
+message: 8/8 is **Lyrica Day**!
 explanation: >
  Keyboard day, as a typical piano keyboard has 88 keys.
 citations:
@@ -259,7 +259,7 @@ tags:
 characters: [Wriggle]
 message: 8/8 is **Wriggle Day**!
 explanation: >
- 8*8 = 6(Mu)4(shi) (Bug)
+ 8\*8 = 6(Mu)4(shi) (Bug)
 citations:
  - name: Explanation Illustration
    url: https://www.pixiv.net/en/artworks/64298671
