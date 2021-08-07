@@ -126,7 +126,8 @@ if not args.twitter_only and len(embeds) > 0:
 
         for webhook_url in WEBHOOK_URL.split(" "):
             try:
-                resp = requests.post(webhook_url, json={'embeds': embeds})
+                resp = requests.post(webhook_url+"?wait=true", json={'embeds': embeds})
                 print(resp)
+                print(webhook_url+"/messages/"+resp.json()["id"])
             except:
                 logging.exception('Failed to send Discord message {}'.format(webhook_url))
