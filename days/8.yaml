@@ -30,8 +30,12 @@ name: Haniwa Day
 tags:
  - name: 8月2日は磨弓の日
    platforms: [twitter, pixiv]
-characters: [Mayumi]
-message: 8/2 is **Haniwa (Mayumi) Day**!
+ - name: 8月2日は袿姫の日
+   platforms: [twitter, pixiv]
+ - name: 8月2日は埴安神袿姫の日
+   platforms: [twitter, pixiv]
+characters: [Mayumi, Keiki]
+message: 8/2 is **Haniwa Day**!
 explanation: >
  Goroawase: 8(Ha)2(ni)
 citations:
@@ -87,7 +91,7 @@ tags:
 characters: [Tojiko]
 message: 8/4 is **Tojiko Day**!
 explanation: >
- Goroawase: 8(Ya)/4(yo)=Yatteyanyo! (やってやんよ!), Tojiko's "catchphrase" and only dialogue from TD.
+ Goroawase: 8(Ya)/4(yo)=Yatteyanyo! (やってやんよ!), Tojiko's "catchphrase" and from TD.
 citations:
  - name: Pixiv Dictionary
    url: http://dic.pixiv.net/a/8月4日は屠自古の日
@@ -127,6 +131,8 @@ day: 5
 name: (kinda) Eirin Day
 tags:
  - name: 8月5日頃は八意永琳の日
+   platforms: [twitter, pixiv]
+ - name: 8月5日は八意永琳の日
    platforms: [twitter, pixiv]
 characters: [Eirin]
 message: 8/5 is **(kinda) Eirin Day**!
@@ -169,6 +175,8 @@ day: 6
 name: Aya/Reimu Day
 tags:
  - name: 08月06日はあやれいむの日
+   platforms: [twitter, pixiv]
+ - name: 8月6日はあやれいむの日
    platforms: [twitter, pixiv]
 characters: [Aya, Reimu]
 message: 08/06 is **Aya/Reimu Day**!
@@ -387,6 +395,24 @@ citations:
    url: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=51885270
 ---
 month: 8
+day: 11
+name: Takane Day
+tags:
+ - name: 山の日は山城たかねの日
+   platforms: [twitter, pixiv]
+ - name: 8月11日は山城たかねの日
+   platforms: [twitter, pixiv]
+characters: [Takane]
+message: Mountain Day is **Takane Day**!
+explanation: >
+ 8/11 is Mountain Day (山の日), and Takane is a Yamawaro (lit. "mountain child").
+citations:
+ - name: Explanation Illustration
+   url: https://www.pixiv.net/en/artworks/91522778
+ - name: Mountain Day at ja.wikipedia.org
+   url: https://ja.wikipedia.org/wiki/%E5%B1%B1%E3%81%AE%E6%97%A5
+---
+month: 8
 day: 12
 name: Lunasa Day
 tags:
@@ -461,12 +487,14 @@ citations:
 ---
 month: 8
 day: 28
-name: Haniwa (Mayumi) Day
+name: Haniwa Day
 tags:
  - name: 8月28日は磨弓の日
    platforms: [twitter, pixiv]
-characters: [Mayumi]
-message: 8/28 is **Haniwa (Mayumi) Day**!
+ - name: 8月28日は埴安神袿姫の日
+   platforms: [twitter, pixiv]
+characters: [Mayumi, Keiki]
+message: 8/28 is **Haniwa Day**!
 explanation: >
  Goroawase: 8(Ha)2(ni)8(wa)
 citations:
