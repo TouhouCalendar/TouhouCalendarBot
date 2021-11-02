@@ -117,13 +117,25 @@ name: Tengu Day
 tags:
  - name: 10月9日は天狗の日
    platforms: [twitter, pixiv]
-characters: [Aya, Momiji, Hatate]
+characters: [Aya, Momiji, Hatate, Megumu]
 message: 10/9 is **Tengu Day**!
 explanation: >
  Goroawase: 10(Ten)9(Gu)
 citations:
  - name: Pixiv Dictionary
    url: http://dic.pixiv.net/a/10月9日は天狗の日
+---
+month: 10
+day: 9
+name: Tenkyuu Day
+tags:
+ - name: 10月9日は天弓千亦の日
+   platforms: [twitter, pixiv]
+characters: [Chimata]
+message: 10/9 is **Tenkyuu Day**!
+explanation: >
+ Goroawase: 10(Ten)9(Kyu)
+citations: #None...
 ---
 month: 10
 day: 9
@@ -259,7 +271,7 @@ tags:
 characters: [Koishi]
 message: 10/28 is **Double Koishi Day**!
 explanation: >
- Gorowase: 1028 = 2*514, and 5(Ko)1(i)4(shi)
+ Gorowase: 1028 = 2\*514, and 5(Ko)1(i)4(shi)
 citations:
  - name: Pixiv Dictionary
    url: http://dic.pixiv.net/a/10月28日はこいしちゃん×2の日
