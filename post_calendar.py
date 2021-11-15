@@ -85,22 +85,31 @@ if not args.discord_only:
             if not args.today_only:
                 if twitter_preview is not None:
                     in_reply_to_status_id = None
-                    for chunk in twitter_preview:
-                        post = api.PostUpdate(chunk, in_reply_to_status_id=in_reply_to_status_id)
-                        in_reply_to_status_id = post.id
+                    try:
+                        for chunk in twitter_preview:
+                            post = api.PostUpdate(chunk, in_reply_to_status_id=in_reply_to_status_id)
+                            in_reply_to_status_id = post.id
+                    except:
+                        logging.exception(f"Exception posting preview")
 
                 prev_status_ids = r.get("reposts:"+(date_utc-datetime.timedelta(days=1)).isoformat())
                 if prev_status_ids:
                     for id_bytes in prev_status_ids.split(b' '):
-                        api.DestroyStatus(int(id_bytes))
+                        try:
+                            api.DestroyStatus(int(id_bytes))
+                        except:
+                            logging.exception(f"Failed to delete retweet {id_bytes}")
 
 
                 prev_status_ids = r.get("posts:"+(date_utc-datetime.timedelta(days=1)).isoformat())
                 if prev_status_ids is not None:
                     retweet_ids = []
                     for id_bytes in prev_status_ids.split(b' '):
-                        retweet = api.PostRetweet(int(id_bytes))
-                        retweet_ids.append(retweet.id)
+                        try:
+                            retweet = api.PostRetweet(int(id_bytes))
+                            retweet_ids.append(retweet.id)
+                        except:
+                            logging.exception(f"Failed to retweet {id_bytes}")
                     r.setex("reposts:"+date_utc.isoformat(), datetime.timedelta(days=3), " ".join(str(i) for i in retweet_ids))
 
             if touhoudays is not None:
