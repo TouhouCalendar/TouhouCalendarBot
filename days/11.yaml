@@ -126,3 +126,19 @@ explanation: >
 citations:
  - name: Pixiv Dictionary
    url: http://dic.pixiv.net/a/11月24日は妖夢の日
+---
+month: 11
+day: 27
+name: Megumu Day
+tags:
+ - name: 11月27日は飯綱丸龍の日
+   platforms: [twitter, pixiv]
+ - name: 11月27日は飯綱丸の日
+   platforms: [twitter, pixiv]
+characters: [Megumu]
+message: 11/27 is **Megumu day**!
+explanation: >
+ Goroawase: 1(i)1(i)2(zu)7(na)=Iizuna(maru)
+citations:
+ - name: Explanation Tweet
+   url: https://twitter.com/dr_080/status/1463036635684114438 
