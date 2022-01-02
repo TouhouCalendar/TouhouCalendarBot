@@ -1,5 +1,19 @@
 ---
 month: 1
+day: 4
+name: Aunn Day
+tags:
+ - name: 1月4日はあうんの日
+   platforms: [twitter, pixiv]
+ - name: あうんの日
+   platforms: [twitter, pixiv]
+characters: [Aunn]
+message: A-un! 1/4 is **Aunn Day**!
+explanation: >
+ Goroawase: 1(I)4(shi)=Ishi (Stone)
+citations: #None, found on Nicopedia but low traffic
+---
+month: 1
 day: 5
 name: Yumemi Day
 tags:
@@ -10,7 +24,7 @@ tags:
 characters: [Yumemi]
 message: Don't (Strawberry) Panic! 1/5 is **Professor Yumemi's Day**!
 explanation: >
- Goroawase: 1(ichi)5(go)=Ichigo (Strawberry)
+ Goroawase: 1(Ichi)5(go)=Ichigo (Strawberry)
 citations:
  - name: Pixiv Dictionary
    url: http://dic.pixiv.net/a/『毎月15日と1月5日は教授の日』
@@ -31,6 +45,7 @@ citations:
 ---
 month: 1
 day: 7
+# Todo: Figure out why this is supposed to be super anyway
 name: (Super) Hina Day
 tags:
  - name: 毎年1月7日はスーパー雛の日
@@ -42,6 +57,18 @@ explanation: >
 citations:
  - name: Pixiv Dictionary
    url: http://dic.pixiv.net/a/毎年1月7日はスーパー雛の日
+---
+month: 1
+day: 8
+name: Kasen Day
+tags:
+ - name: 1月8日は華扇の日
+   platforms: [twitter, pixiv]
+characters: [Kasen]
+message: 1/8 is **Kasen Day**!
+explanation: >
+ Goroawase: 1(I)8(ba)=Ibaraki
+citations: #None as of yet, Nicopedia find
 ---
 month: 1
 day: 9
@@ -112,3 +139,43 @@ explanation: >
 explanation_short: >
  Goroawase: 1(i)10(do)=井戸 (Well). Kisume lives in a well bucket.
 citations: #None
+---
+month: 1
+day: 16
+name: Shiki Eiki Day
+tags:
+ - name: 1月16日は映姫の日
+   platforms: [twitter, pixiv]
+characters: [Eiki]
+message: 1/16 is **Shiki Eiki Day**!
+explanation: >
+ 1/16 is 閻魔賽日, a buddhist holiday that relates to Yama.
+citations:
+ - name: 閻魔賽日 @ zatsuneta.com
+   url: https://zatsuneta.com/archives/101162.html
+---
+month: 1
+day: 22
+name: Merlin Day
+tags:
+ - name: 1月22日はメルランの日
+   platforms: [twitter, pixiv]
+characters: [Merlin]
+message: 1/22 is the jazzy ghost **Merlin Day**!
+explanation: >
+ 1/22 is Jazz Day in Japan, and trumpets are prominent in jazz.
+citations:
+ - name: Jazz Day @ zatsuneta.com
+   url: https://zatsuneta.com/archives/101222.html
+---
+month: 1
+day: 25
+name: Ellen Day
+tags:
+ - name: 1月25日はエレンの日
+   platforms: [twitter, pixiv]
+characters: [Ellen]
+message: 1/25 is **Ellen Day**!
+explanation: >
+ Anniversary of the release date of "音盤　はたらきもの", inspiration for Ellen
+citations: #None, pulled from Nicopedia again
