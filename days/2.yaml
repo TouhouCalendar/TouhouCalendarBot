@@ -14,6 +14,20 @@ citations:
    url: http://dic.pixiv.net/a/2月2日は普通の魔法使いの日
 ---
 month: 2
+day: 2
+name: Seiga Niang Niang day
+tags:
+ - name: 2月2日は霍青娥の日
+   platforms: [twitter, pixiv]
+ - name: 2月2日は青娥娘々の日
+   platforms: [twitter, pixiv]
+characters: [Seiga]
+message: 2/2 is **Seiga Niang Niang Day**!
+explanation: >
+ Goroawase: 2(Ni)2(Ni)=Nyan Nyan/Niang Niang, part of Seija's nickname title.
+citations: #None, nicopedia
+---
+month: 2
 day: 4
 name: Youmu Day
 tags:
@@ -24,10 +38,24 @@ tags:
 characters: [Youmu]
 message: 2/4 is **Youmu Day**!
 explanation: >
- Goroawase: 24=Niwashi (Gardener), like Youmu
+ Goroawase: 2(Ni)4(shi)=Niwashi (Gardener), like Youmu
 citations:
  - name: Pixiv Dictionary
    url: http://dic.pixiv.net/a/2月4日は妖夢の日
+---
+month: 2
+day: 4
+name: Mokou Day
+tags:
+ - name: 2月4日は妹紅の日 
+   platforms: [twitter, pixiv]
+ - name: 2月4日は不死の日
+   platforms: [twitter, pixiv]
+characters: [Mokou]
+message: 🗻 2/4 is **Fujiwara no Mokou Day**!
+explanation: >
+ Goroawase: 2(Fu)4(ji)
+citations: # Nicopedia
 ---
 month: 2
 day: 6
@@ -64,6 +92,7 @@ citations:
  - name: Pixiv Dictionary
    url: http://dic.pixiv.net/a/2月7日は神子さんの日
 ---
+# 2/8 is also an Ellen day but she honestly has way too many already
 month: 2
 day: 8
 name: Kutaka Day

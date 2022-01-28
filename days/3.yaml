@@ -92,6 +92,20 @@ citations:
    url: http://dic.pixiv.net/a/3月7日は早苗さんの日
 ---
 month: 3
+day: 7
+name: Murasa Day
+tags:
+ - name: 3月7日は村紗水蜜の日
+   platforms: [twitter, pixiv]
+ - name: 3月7日は水蜜の日
+   platforms: [twitter, pixiv]
+characters: [Murasa]
+message: ⚓ Ahoy! 3/7 is **Murasa Day**!
+explanation: >
+ Goroawase: 3(Mi)7(na)(mitsu)
+citations: #Nicopedia
+---
+month: 3
 day: 9
 name: Mishaguji Day
 tags:
@@ -120,6 +134,20 @@ explanation: >
 citations:
  - name: Pixiv Dictionary
    url: http://dic.pixiv.net/a/咲夜さんの日
+---
+month: 3
+day: 9
+name: Sagume Day
+tags:
+ - name: 3月9日はサグメの日
+   platforms: [twitter, pixiv]
+ - name: サグメの日
+   platforms: [twitter, pixiv]
+characters: [Sagume]
+message: 3/9 is **Sagume Day**!
+explanation: >
+ Goroawase: 3(Sa)9(gu)
+citations: #Nicopedia
 ---
 month: 3
 day: 10
