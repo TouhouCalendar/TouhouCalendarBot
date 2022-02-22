@@ -71,7 +71,7 @@ for i in range(1,13):
 
             explanation = day["explanation"].strip()
             explanation_short = day.get("explanation_short", explanation)
-            explanation_short = explanation_short.strip(" .,")
+            explanation_short = explanation_short.strip("\n .,")
 
             touhouday = TouhouDay(
                 month=day["month"],
