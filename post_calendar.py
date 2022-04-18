@@ -132,11 +132,28 @@ if not args.twitter_only and len(embeds) > 0:
     else:
         WEBHOOK_URL = os.environ['WEBHOOK_URL']
         import requests
+        import time
+
+        MAX_WEBHOOK_POST_RETRIES = 5
 
         for webhook_url in WEBHOOK_URL.split(" "):
-            try:
-                resp = requests.post(webhook_url+"?wait=true", json={'embeds': embeds})
-                print(resp)
-                print(webhook_url+"/messages/"+resp.json()["id"])
-            except:
-                logging.exception('Failed to send Discord message {}'.format(webhook_url))
+            for attempt in range(MAX_WEBHOOK_POST_RETRIES):
+                try:
+                    resp = requests.post(webhook_url+"?wait=true", json={'embeds': embeds})
+                    if resp.ok:
+                        print(webhook_url+"/messages/"+resp.json()["id"])
+
+                    try:
+                        rl_remaining = int(resp.headers["X-RateLimit-Remaining"])
+                        if rl_remaining == 0:
+                            rl_after = float(resp.headers["X-RateLimit-Reset-After"])
+                            time.sleep(rl_after)
+                    except:
+                        logging.exception('Error handling ratelimiting from {}'.format(webhook_url))
+
+                    if resp.ok:
+                        break
+                except:
+                    logging.exception('Failed to send Discord message {}'.format(webhook_url))
+            else:
+                logging.error('Failed to send Discord message {}'.format(webhook_url))
