@@ -179,6 +179,26 @@ explanation: >
 citations: #None
 ---
 month: 5
+day: 19
+name: Hecatia Day
+tags:
+ - name: 5月19日はへカーティアの日
+   platforms: [twitter, pixiv]
+ - name: 5月19日はラピスラズリの日
+   platforms: [twitter, pixiv]
+characters: [Sanae]
+message: 5/19 is **Hecatia ❤️ Day**
+explanation: >
+ The JP birthstone for 5/19 is lapis lazuli (rough)
+citations:
+ - name: Explanation Tweet
+   url: https://twitter.com/JR_E127ysk/status/732920893488254979
+ - name: May 19th Birthstone information
+   url: https://birthstone.i1i1i.net/5%E6%9C%88%E3%81%AE%E8%AA%95%E7%94%9F%E7%9F%B3/5%E6%9C%8819%E6%97%A5%E8%AA%95%E7%94%9F%E7%9F%B3%E3%83%A9%E3%83%94%E3%82%B9%E3%83%BB%E3%83%A9%E3%82%BA%E3%83%AA%E5%8E%9F%E7%9F%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.html
+ - name: May 19th Birthstone Information
+   url: https://www.infonix.jp/birth_stone/23095/
+---
+month: 5
 day: 26
 name: Kokoro Day
 tags:
