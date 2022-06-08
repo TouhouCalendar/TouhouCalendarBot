@@ -84,6 +84,18 @@ citations:
    url: http://dic.pixiv.net/a/6月6日は赤蛮奇の日
 ---
 month: 6
+day: 6
+name: Suwako Day
+tags:
+ - name: 6月6日は諏訪子の日 
+   platforms: [twitter, pixiv]
+characters: [Suwako]
+message: 🐸 Kero, Kero! 6/6 is **Suwako Day**!
+explanation: >
+ Goroawase: 6(ro)6(ro)-> Kerokero, frog croaking onomatopoeia. 6/6 is therefore JP Frog day, and Suwako is associated with frogs.
+citations: #None for now...
+---
+month: 6
 day: 7
 name: JunHeca Day
 tags:
