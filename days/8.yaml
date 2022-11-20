@@ -389,10 +389,14 @@ tags:
 characters: [Hatate]
 message: 8/10 is **Hatate Day**!
 explanation: >
- Goroawase: 8(Ha)10(te(n))=Hatate
+ Either goroawase: 8(Ha)10(te(n))=Hatate, or a pun off of Oyster (Hotate) Day
 citations:
- - name: Explanation Illustration
+ - name: Explanation Illustration (Goroawase pun)
    url: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=51885270
+ - name: Explanation Illustration (Oyster Day)
+   url: https://twitter.com/JR_E127ysk/status/743788914201108482
+ - name: Oyster (Hotate) Day @ ielove.co.jp
+   url: https://www.ielove.co.jp/column/contents/02932/
 ---
 month: 8
 day: 11
