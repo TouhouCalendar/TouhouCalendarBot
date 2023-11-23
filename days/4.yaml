@@ -30,6 +30,18 @@ citations:
    url: http://dic.pixiv.net/a/4月10日はパルスィの日
 ---
 month: 4
+day: 23
+name: Kosuzu Day
+tags:
+ - name: 4月23日は小鈴の日
+   platforms: [twitter, pixiv]
+characters: [Kosuzu]
+message: 4/23 is **Kosuzu Day**!
+explanation: >
+ 4/23 is Book Day, and Kosuzu is associated with books
+citations:
+---
+month: 4
 day: 28
 name: Shizuha Day
 tags:

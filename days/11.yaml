@@ -112,6 +112,25 @@ citations:
    url: https://zatsuneta.com/archives/111141.html
 ---
 month: 11
+day: 18
+established: 2023
+name: Jo'on Day
+tags:
+ - name: 11月18日は女苑の日
+   platforms: [twitter, pixiv]
+ - name: 11月18日は依神女苑の日
+   platforms: [twitter, pixiv]
+characters: [Jo'on]
+message: 11/18 is **Jo'on Day**!
+explanation: >
+ The Birth Flower on 11/18 is the Himejo-en (姫女苑), with the same characters as Jo'on's name.
+citations:
+ - name: Explanation Illustration
+   url: https://www.pixiv.net/en/artworks/102901774
+ - name: Himejo-en @ hananokobata.com (Himejo-en Birthday Flower)
+   url: https://hananokotoba.com/himejyoon/
+---
+month: 11
 day: 19
 name: Good Iku-san Day
 tags:

@@ -1,3 +1,18 @@
+month: 7
+day: 2
+name: Nazrin Day
+tags:
+ - name: 7月2日はナズの日 
+   platforms: [twitter, pixiv]
+ - name: 7月2日はナズーリンの日 
+   platforms: [twitter, pixiv]
+ - name: ナズの日 
+   platforms: [twitter, pixiv]
+characters: [Nazrin]
+message: 7/2 is **Nazrin Day**!
+explanation: >
+ Goroawase: Goroawase: 7(na)2(tsu->zu)=Nazrin
+citations:
 ---
 month: 7
 day: 4
@@ -100,7 +115,7 @@ tags:
  - name: 7月9日はレミリアの日
    platforms: [twitter, pixiv]
 characters: [Remilia]
-message: Uuu~! It's **Remilia Day**!
+message: 7/9 is **Remilia Day**!
 explanation: >
  Flan Day (4/95 or 7/4), plus 5 days to represent the supposed 5 year gap in their ages.
 citations:
@@ -270,3 +285,17 @@ explanation: >
 citations:
  - name: Watermelon Day @ zatsuneta.com
    url: https://zatsuneta.com/archives/107271.html
+---
+month: 7
+day: 28
+name: Konngara Day
+tags:
+ - name: 7月28日はコンガラの日
+   platforms: [pixiv, twitter]
+characters: [Konngara]
+message: 7/28 is **Konngara Day**!
+explanation: >
+ Konngara is based off of the 7th of the 8 great youths of Fudoo Myoo-oo. The 28th of every month is the day to celebrate Fudoo Myoo-oo.
+citations:
+ - name: Explanatory Tweet
+   url: https://twitter.com/itani_illust/status/1552640381648764933

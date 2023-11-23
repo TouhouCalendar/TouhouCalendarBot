@@ -4,14 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-python-twitter = "~=3.5"
 requests = "*"
-PyYAML = "*"
-redis = "*"
+pyyaml = "==5.4"
+python-twitter-v2 = "*"
+urllib3 = "<2.0.0"
 
 [dev-packages]
 twitter-text = "*"
-pyyaml = "*"
 
 [requires]
 python_version = "3"

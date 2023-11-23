@@ -63,6 +63,20 @@ citations:
    url: https://jisho.org/search/手乗り
 ---
 month: 5
+day: 5
+name: Yuugenmagan Day
+tags:
+ - name: 5月5日はゆうげんまがんの日
+   platforms: [twitter, pixiv]
+characters: [YuugenMagan]
+message: 5/5 is 5-eyed **Yuugenmagan Day**!
+explanation: >
+ Pun: May sounds like '目' (eye), making this "5 Eyes".
+citations:
+ - name: Originating list
+   url: https://thwiki.cc/%E4%B8%9C%E6%96%B9%E8%A7%92%E8%89%B2%E6%97%A5%E4%B8%80%E8%A7%88
+---
+month: 5
 day: 9
 name: Koakuma Day
 tags:

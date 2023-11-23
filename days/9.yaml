@@ -170,6 +170,21 @@ explanation: >
 citations: #
 ---
 month: 9
+day: 23
+name: Kagerou Day
+tags:
+ - name: 9月23日は今泉影狼の日
+   platforms: [twitter, pixiv]
+characters: [Kagerou]
+message: Awoo! 9/23 is **Kagerou Day**! 🌕
+explanation: >
+ Approximately the Autumn Equinox, around which a notable full moon called the Harvest Moon occurs - fitting for a werewolf
+citations:
+ - name: Explanation Tweet
+   url: https://twitter.com/RownouArts/status/1703892947949830155
+
+---
+month: 9
 day: 30
 name: Kurumi Day
 tags:

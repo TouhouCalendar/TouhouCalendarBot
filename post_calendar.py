@@ -7,7 +7,6 @@ import datetime
 import argparse
 
 from urllib.parse import urlparse
-import redis # We're webscale now.
 
 logging.basicConfig()
 
@@ -34,14 +33,6 @@ else:
 
     date_utc = datetime.datetime.utcnow().date()
 
-rediscloud_url = os.environ.get('REDISCLOUD_URL')
-if rediscloud_url:
-    url = urlparse(rediscloud_url)
-    r = redis.Redis(host=url.hostname, port=url.port, password=url.password)
-else:
-    # Default to localhost, default port, no password
-    r = redis.Redis()
-
 touhoudays = days_for(today_jst)
 print(today_jst, touhoudays)
 
@@ -57,73 +48,6 @@ if date_utc.weekday() == 6 and not args.today_only:
 
 if touhoudays is not None:
     embeds.append(format_discord_embed(touhoudays))
-
-if not args.discord_only:
-    if args.dry:
-        #Todo: Better dry run
-        if twitter_preview is not None:
-            # Todo: Better split algo here?
-            print(repr(twitter_preview))
-
-        if touhoudays is not None:
-            for day in touhoudays:
-                #Todo: Post in reverse order of importance, so biggest day shows up first to viewers?
-                print(format_twitter(day))
-    else:
-        try:
-            APP_CONSUMER_KEY = os.environ['APP_CONSUMER_KEY']
-            APP_CONSUMER_SECRET = os.environ['APP_CONSUMER_SECRET']
-            ACC_TOKEN = os.environ['ACC_TOKEN']
-            ACC_SECRET = os.environ['ACC_SECRET']
-
-            import twitter
-            api = twitter.Api(consumer_key=APP_CONSUMER_KEY,
-                              consumer_secret=APP_CONSUMER_SECRET,
-                              access_token_key=ACC_TOKEN,
-                              access_token_secret=ACC_SECRET)
-
-            if not args.today_only:
-                if twitter_preview is not None:
-                    in_reply_to_status_id = None
-                    try:
-                        for chunk in twitter_preview:
-                            post = api.PostUpdate(chunk, in_reply_to_status_id=in_reply_to_status_id)
-                            in_reply_to_status_id = post.id
-                    except:
-                        logging.exception(f"Exception posting preview")
-
-                prev_status_ids = r.get("reposts:"+(date_utc-datetime.timedelta(days=1)).isoformat())
-                if prev_status_ids:
-                    for id_bytes in prev_status_ids.split(b' '):
-                        try:
-                            api.DestroyStatus(int(id_bytes))
-                        except:
-                            logging.exception(f"Failed to delete retweet {id_bytes}")
-
-
-                prev_status_ids = r.get("posts:"+(date_utc-datetime.timedelta(days=1)).isoformat())
-                if prev_status_ids is not None:
-                    retweet_ids = []
-                    for id_bytes in prev_status_ids.split(b' '):
-                        try:
-                            retweet = api.PostRetweet(int(id_bytes))
-                            retweet_ids.append(retweet.id)
-                        except:
-                            logging.exception(f"Failed to retweet {id_bytes}")
-                    r.setex("reposts:"+date_utc.isoformat(), datetime.timedelta(days=3), " ".join(str(i) for i in retweet_ids))
-
-            if touhoudays is not None:
-                status_ids = []
-                for day in touhoudays:
-                    #Todo: Post in reverse order of importance, so biggest day shows up first to viewers?
-                    status = api.PostUpdate(format_twitter(day))
-                    status_ids.append(status.id)
-
-                if not args.today_only:
-                    r.setex("posts:"+date_utc.isoformat(), datetime.timedelta(days=3), " ".join(str(i) for i in status_ids))
-                    
-        except:
-            logging.exception('Failed to send tweet')
 
 if not args.twitter_only and len(embeds) > 0:
     if args.dry:
