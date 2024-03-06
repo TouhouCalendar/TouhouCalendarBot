@@ -74,6 +74,20 @@ citations:
    url: http://dic.pixiv.net/a/3月5日は豊聡耳神子の日
 ---
 month: 3
+day: 6
+name: Zanmu Day
+tags:
+ - name: 3月6日は日白残無の日
+   platforms: [twitter, pixiv]
+ - name: #3月6日は残無の日
+   platforms: [twitter, pixiv]
+characters: [Zanmu]
+message: 3/6 is **Zanmu Day**!
+explanation: >
+ Goroawase: 3(zan)6(mu)
+citations: #None...
+---
+month: 3
 day: 7
 name: Sanae Day
 tags:
