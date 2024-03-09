@@ -79,12 +79,12 @@ name: Zanmu Day
 tags:
  - name: 3月6日は日白残無の日
    platforms: [twitter, pixiv]
- - name: #3月6日は残無の日
+ - name: 3月6日は残無の日
    platforms: [twitter, pixiv]
 characters: [Zanmu]
 message: 3/6 is **Zanmu Day**!
 explanation: >
- Goroawase: 3(zan)6(mu)
+ Goroawase: 3(san->zan)6(mu)
 citations: #None...
 ---
 month: 3
