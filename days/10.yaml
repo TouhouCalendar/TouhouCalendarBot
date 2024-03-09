@@ -135,7 +135,9 @@ characters: [Chimata]
 message: 10/9 is **Tenkyuu Day**!
 explanation: >
  Goroawase: 10(Ten)9(Kyu)
-citations: #None...
+citations:
+ - name: Pixiv Dictionary
+   url: https://dic.pixiv.net/a/10月9日は天弓千亦の日
 ---
 month: 10
 day: 9
