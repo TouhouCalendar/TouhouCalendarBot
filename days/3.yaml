@@ -212,6 +212,18 @@ citations:
    url: http://dic.pixiv.net/a/3月12日はみことじの日
 ---
 month: 3
+day: 13
+name: ZanHisa Day
+tags:
+ - name: 3月13日はざんひさの日 
+   platforms: [twitter, pixiv]
+characters: [Zanmu, Hisami]
+message: 3/13 is **ZanHisa Day**!
+explanation: >
+ Goroawase: 3(san->zan)1(hi)3(sa)
+citations: # None...
+---
+month: 3
 day: 18
 name: Inaba Day
 tags:
