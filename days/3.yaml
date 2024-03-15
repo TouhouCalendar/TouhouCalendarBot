@@ -241,6 +241,21 @@ citations:
 ---
 month: 3
 day: 20
+name: Mystia Day
+tags:
+ - name: 3月20日はミスティアの日
+   platforms: [twitter, pixiv]
+message: 3/20 is **Mystia Day**!
+explanation: >
+ 3/20 is World Sparrow Day.
+citations:
+ - name: Explanation Illustration
+   url: https://www.pixiv.net/en/artworks/67857443
+ - name: World Sparrow Day @ Wikipedia
+   url: https://en.wikipedia.org/wiki/World_Sparrow_Day
+---
+month: 3
+day: 20
 name: MikoFuto Day
 tags:
  - name: 3月20日はみこふとの日
